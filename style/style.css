@@ -1,0 +1,143 @@
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*
+    Customized CSS begins here.  Everything above is part of the reset.
+*/
+
+body
+{
+    margin: 10px;
+    background-color: lightblue;
+}
+
+h1
+{
+    font-size: 1.5em;
+}
+
+h2
+{
+    font-size: 1.3em;
+}
+
+h3
+{
+    font-size: 1.2em;
+}
+
+tr
+{
+    vertical-align: middle;
+    margin: 15px 0 15px 0;
+    padding: 30px;
+}
+
+td
+{
+    vertical-align: middle;
+    margin: 15px 0 15px 0;
+}
+
+#titleBlock
+{
+    vertical-align: middle;
+    text-align: center;
+}
+
+#dataEntry
+{
+    margin: 10px;
+    padding: 5px;
+    border: 1px black solid;
+    display: inline-block;
+    position: relative;
+    float: left;
+    top: 0px;
+}
+
+#mainList
+{
+    margin: 10px;
+    padding: 5px;
+    border: 1px black solid;
+    display: inline-block;
+    position: relative;
+    top: 0px;
+}
+
+.checkBox
+{
+    border: 1px black solid;
+    border-radius: 2px;
+    background-color: white;
+    height: 16px;
+    width: 16px;
+    margin: 3px 3px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.listItem
+{
+    border: none;
+    height: 12px;
+    margin: 3px 3px;
+    padding: 3px;
+}
+
+.unchecked
+{
+    color: black;
+}
+
+.checked
+{
+    color: darkgrey;
+}
+

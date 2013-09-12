@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style/style.css">
+    <title>Shopping List</title>
+</head>
+<body>
+    <div id="titleBlock">
+        <h1>Welcome To Your Shopping Cart</h1>
+    </div> <!-- end div titleBlock -->
+    <div id="mainContent">
+        <div id="dataEntry">
+            <form>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td colspan="2"><h3>List Management</h3></td>
+                        </tr>
+                        <tr>
+                            <td>New item:</td>
+                            <td>
+                                <input class="inputDataEntry" id="newItem"></input>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>
+                                <button class="btnDataEntry">Add Item</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>
+                                <button class="btnDataEntry">Clear List</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+        </div> <!-- end div dataEntry -->
+        <div id="mainList">
+            <h3>Your List</h3>
+            <table>
+                <tbody>
+                    <tr class="unchecked">
+                        <td><div class="checkBox"> </div></td>
+                        <td class="listItem">First Item</td>
+                    </tr>
+                    <tr>
+                        <td><div class="checkBox unchecked"> </div></td>
+                        <td class="listItem unchecked">Second Item in the list is here</td>
+                    </tr>
+                    <tr class="checked">
+                        <td><div class="checkBox">X</div></td>
+                        <td class="listItem">Third Item</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div> <!-- end div mainList -->
+    </div> <!-- end div mainContent -->
+</body>
+</html>
