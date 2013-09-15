@@ -25,13 +25,13 @@
                         <tr>
                             <td></td>
                             <td>
-                                <button class="btnDataEntry">Add Item</button>
+                                <button class="btnDataEntry" id="btnAddItem">Add Item</button>
                             </td>
                         </tr>
                         <tr>
                             <td></td>
                             <td>
-                                <button class="btnDataEntry">Clear List</button>
+                                <button class="btnDataEntry" id="btnClearList">Clear List</button>
                             </td>
                         </tr>
                     </tbody>
@@ -40,23 +40,12 @@
         </div> <!-- end div dataEntry -->
         <div id="mainList">
             <h3>Your List</h3>
-            <table>
-                <tbody>
-                    <tr class="unchecked">
-                        <td><div class="checkBox"> </div></td>
-                        <td class="listItem">First Item</td>
-                    </tr>
-                    <tr>
-                        <td><div class="checkBox unchecked"> </div></td>
-                        <td class="listItem unchecked">Second Item in the list is here</td>
-                    </tr>
-                    <tr class="checked">
-                        <td><div class="checkBox">X</div></td>
-                        <td class="listItem">Third Item</td>
-                    </tr>
+            <table id="listTable">
+                <tbody id="listTableBody">
                 </tbody>
             </table>
         </div> <!-- end div mainList -->
     </div> <!-- end div mainContent -->
+    <script type="text/javascript" src="scripts/shoppingcart.js"></script>
 </body>
 </html>
